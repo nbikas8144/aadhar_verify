@@ -1,0 +1,150 @@
+body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f2f6fb;
+        color: #333;
+    }
+    /*Header2*/
+    .Header1{
+    background-color: rgb(253, 253, 253);
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .Header1 p{
+        color: rgb(1, 94, 141);
+        font-size: 13px;
+    }
+    /* Header2 */
+    .header2 {
+        background: linear-gradient(to right, #00173b, #418dd3);
+        color: #fff;
+        padding: 14px 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header2 h1 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb {
+        padding: 12px 16px;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .breadcrumb span {
+        color: #7daefe;
+        font-weight: 600;
+    }
+
+    /* Card */
+    .card {
+        max-width: 310px;
+        height: 250px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 6px;
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    /* Input fields */
+    .input-group {
+        margin-bottom: 10px;
+        margin-top: 1px;
+    }
+
+    .input-group label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 6px;
+        color: #666;
+    }
+
+    .input-group input {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        padding: 8px 4px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .input-group input:focus {
+        border-bottom-color: #1aa6b7;
+    }
+
+    /* Captcha */
+    .captcha-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+
+    .captcha-box {
+        background: #f1f1f1;
+        border: 1px solid #ccc;
+        padding: 10px 14px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+
+    .captcha-icons span {
+        font-size: 20px;
+        cursor: pointer;
+        color: #0a3d91;
+        margin-right: 8px;
+    }
+
+    /* Button */
+    .btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        background: linear-gradient(to right, #0a3d91, #1aa6b7);
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+    /* FAQ */
+    .faq {
+       
+        
+    }
+
+    .faq strong {
+        display: inline;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    .faq-card{
+        background-color: white;
+        border: 0.2px solid black;
+        margin: 20px 20px 0;
+        border-radius: 20px;
+    }
+    .faq-card h6{
+        margin-left: 5px;
+        
+    }
